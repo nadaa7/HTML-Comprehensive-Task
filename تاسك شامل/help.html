@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة المساعدة - حركات وجمال</title>
+       <tr>
+        <td align="center"><h3>🏠 <a href="index.html">Home</a></h3></td>
+        <td align="center"><h3>📞 <a href="contact.html">Contact</a></h3></td>
+    </tr>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #0077cc;
+            margin-bottom: 30px;
+        }
+        details {
+            background-color: #fff;
+            border-radius: 10px;
+            margin: 12px 0;
+            padding: 15px 20px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+            transition: all 0.3s ease, transform 0.3s ease;
+            overflow: hidden;
+        }
+        details:hover {
+            background-color: #e6f2ff;
+            transform: translateY(-3px);
+        }
+        summary {
+            font-weight: bold;
+            cursor: pointer;
+            position: relative;
+            padding-right: 25px;
+            list-style: none;
+        }
+        summary::after {
+            content: "▸";
+            position: absolute;
+            right: 0;
+            transition: transform 0.3s ease;
+        }
+        details[open] summary::after {
+            transform: rotate(90deg);
+        }
+        p {
+            margin-top: 10px;
+            line-height: 1.6;
+            opacity: 0;
+            transform: translateY(-5px);
+            transition: opacity 0.5s ease, transform 0.5s ease;
+        }
+        details[open] p {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <h1>صفحة المساعدة</h1>
+
+    <details>
+        <summary>كيف أسجل في الموقع؟</summary>
+        <p>لتسجيل حساب جديد، اضغط على زر "تسجيل" أعلى الصفحة واملأ البيانات المطلوبة مثل الاسم والبريد الإلكتروني وكلمة المرور.</p>
+    </details>
+
+    <details>
+        <summary>نسيت كلمة المرور، ماذا أفعل؟</summary>
+        <p>اضغط على "نسيت كلمة المرور" في صفحة تسجيل الدخول، ثم اتبع التعليمات لإعادة تعيين كلمة المرور عبر بريدك الإلكتروني.</p>
+    </details>
+
+    <details>
+        <summary>كيف أغير بياناتي الشخصية؟</summary>
+        <p>بعد تسجيل الدخول، اذهب إلى "الملف الشخصي" واضغط على "تعديل البيانات" لتحديث الاسم أو البريد أو أي معلومات أخرى.</p>
+    </details>
+
+    <details>
+        <summary>هل يمكنني حذف حسابي؟</summary>
+        <p>نعم، يمكنك طلب حذف الحساب من خلال صفحة الإعدادات، وستتم إزالة جميع بياناتك بعد التأكيد.</p>
+    </details>
+
+    <details>
+        <summary>كيف أبحث عن منتجات معينة؟</summary>
+        <p>استخدم شريط البحث أعلى الموقع وأدخل اسم المنتج أو الكلمة المفتاحية، وسيظهر لك جميع النتائج المطابقة.</p>
+    </details>
+
+    <details>
+        <summary>ما هي طرق الدفع المتاحة؟</summary>
+        <p>نقبل الدفع عبر بطاقات الائتمان، PayPal، وبعض المحافظ الإلكترونية حسب الدولة.</p>
+    </details>
+
+    <details>
+        <summary>هل يمكنني تتبع طلباتي؟</summary>
+        <p>بعد الشراء يمكنك متابعة حالة الطلب من صفحة "طلباتي" حيث تظهر حالة الشحن والتوصيل.</p>
+    </details>
+
+    <details>
+        <summary>هل توجد خدمة دعم مباشر؟</summary>
+        <p>يمكنك التواصل معنا عبر الدردشة المباشرة أو البريد الإلكتروني خلال ساعات العمل الرسمية.</p>
+    </details>
+
+    <details>
+        <summary>كيف أضيف منتجات إلى المفضلة؟</summary>
+        <p>اضغط على أيقونة القلب بجانب المنتج وسيتم إضافته تلقائيًا إلى قائمة المفضلة الخاصة بك.</p>
+    </details>
+
+    <details>
+        <summary>هل يمكنني استرجاع المنتج إذا لم يعجبني؟</summary>
+        <p>لدينا سياسة استرجاع خلال 14 يومًا من تاريخ الاستلام، ويجب أن يكون المنتج في حالته الأصلية.</p>
+    </details>
+
+    <details>
+        <summary>كيف أغير لغة الموقع؟</summary>
+        <p>يمكنك تغيير اللغة من أسفل الموقع حيث توجد قائمة اللغات المتاحة.</p>
+    </details>
+
+</body>
+</html>
